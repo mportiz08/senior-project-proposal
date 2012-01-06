@@ -1,6 +1,6 @@
 # Senior Project Proposal
 
-**"rifffz"**, a music player that's accessible on your web browser
+**rifffz**, a music player that's accessible on your web browser
 
 ## The Problem
 
@@ -18,19 +18,46 @@ The end product will be made up of file server using the node.js platform and a 
 
 Here is a list of some specific technology that will be used heavily:
 
-* **javascript** -- the programming language
+* **javascript** (through coffee-script) -- the programming language
 * **html5** -- specifically, the `<audio>` element
 * **node.js** -- a platform for "easily building fast, scalable network applications"
+* **batman.js** or **backbone.js** -- client side mvc frameworks for a single page highly interactive front end
 
-### General Schedule/Milestones
+### Winter Schedule/Milestones
 
-#### Winter 2012
+here's my *rough* ideas as to how the work will be split up for the quarter
 
-Start of project. I'm planning on creating some mockups of the major design elements first, so that I can quickly prototype ideas and get a feel for the direction of the project in terms of discrete components (player, album browser, etc). I'll also start work on the file server for serving the mp3 files.
+#### Week 1
 
-#### Spring 2012
+* build a prototype (functioning but basic) mp3 server
+* design html/css view for listening to an album
+* research server design for more efficient streaming of whole albums
 
-Hopefully, I'll have a much better sense of exact milestones for the Spring by the end of Winter. For now, I'm planning on finishing up the major functionality of the player and possibly working on integrating things like last.fm scrobbling, which will depend on how much progress has been made on the player's interface.
+#### Week 2
+
+* work on html5 `audio` element with custom controls for controlling playback
+
+#### Weeks 3-4
+
+* start work on database to keep track of file locations and id3 tags in a library for the app
+* implement ability to import music to library by adding folders containing songs
+
+#### Weeks 4-5
+
+* design html/css views for adding albums and viewing album library
+* research retrieving album artwork from mp3 files and api fallback for retrieving artwork for mp3s that don't have this information yet
+
+#### Weeks 6-7
+
+* implement search functionality for locating specific songs/artists/albums
+
+#### Weeks 8-9
+
+* implement ability to create/listen to playlists
+
+### Spring Schedule/Milestones
+
+I'm hoping to have a much better sense of exact milestones for the Spring by the end of Winter.
 
 ## Equipment
 
